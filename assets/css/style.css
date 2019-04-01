@@ -1,0 +1,58 @@
+body{
+    font-size: large;
+    background-color: black;
+    color: white;
+
+}
+ .center {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+}
+.blinking{
+    animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+ 
+
+.col-md-7{
+    border: dotted 5px gainsboro;
+    margin-right: 5%;
+    border-radius: 30px;
+}
+
+.col-md-4{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border: dotted 5px gainsboro;
+    border-radius: 20px;
+}
+
+
+#guessed-letters{
+    color: white;
+}
+
+#wins{
+    color: white;
+}
+#textWin{
+    letter-spacing: .7px;
+}
+
+#losses{
+    color: white;
+}
+
+#score-chart{
+    text-align: center;
+    text-decoration: underline;
+}
